@@ -118,11 +118,6 @@
     }
   }
 
-  .nav__items-highlights {
-    background-color: red;
-    color: red;
-  }
-
 
 /* For small devices */
 @media screen and (max-width: 350px) {
