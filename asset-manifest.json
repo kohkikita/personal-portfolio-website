@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/personal-portfolio-website/static/css/main.116778a9.css",
-    "main.js": "/personal-portfolio-website/static/js/main.28701986.js",
+    "main.js": "/personal-portfolio-website/static/js/main.32652910.js",
     "static/js/453.a23575d3.chunk.js": "/personal-portfolio-website/static/js/453.a23575d3.chunk.js",
     "static/media/about.jpg": "/personal-portfolio-website/static/media/about.983ed2de50f9b96482d7.jpg",
-    "static/media/Kita-CV.pdf": "/personal-portfolio-website/static/media/Kita-CV.2c9ffa8b86a8e3845898.pdf",
+    "static/media/Kita-CV.pdf": "/personal-portfolio-website/static/media/Kita-CV.ffbd5475379c608430e2.pdf",
     "index.html": "/personal-portfolio-website/index.html",
     "main.116778a9.css.map": "/personal-portfolio-website/static/css/main.116778a9.css.map",
-    "main.28701986.js.map": "/personal-portfolio-website/static/js/main.28701986.js.map",
+    "main.32652910.js.map": "/personal-portfolio-website/static/js/main.32652910.js.map",
     "453.a23575d3.chunk.js.map": "/personal-portfolio-website/static/js/453.a23575d3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.116778a9.css",
-    "static/js/main.28701986.js"
+    "static/js/main.32652910.js"
   ]
 }
