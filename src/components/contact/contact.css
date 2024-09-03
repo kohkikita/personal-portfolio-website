@@ -2,18 +2,13 @@
     justify-content: center;
     column-gap: 6rem;
     padding-bottom: 3rem;
-}
-
-
-.contact__card {
-    background-color: var(--container--color);
-    text-align: center;
-
+    grid-template-columns: 1fr;
 }
 
 .contact__form {
-    width: 800px;
-    
+    margin: 0 auto;
+    width: 80%; 
+    text-align: center;
 }
 
 .contact__form-div {
@@ -51,7 +46,7 @@
     height: 11rem;
 }
 
-.contact__form-area textarea{
+.contact__form-area textarea {
     resize: none;
 }
 
@@ -61,26 +56,69 @@
     gap: 20px;
 }
 
-
-
 /*===== BREAKPOINTS =====*/
 
-  /* For larger Devices */
-  @media screen and (max-width: 992px) {
-    
-  }
+/* For larger devices */
+@media screen and (max-width: 992px) {
+    .contact__container {
+        column-gap: 4rem; /* Adjust column gap */
+    }
 
-  /* For medium devices */ 
-  @media screen and (max-width: 768px) {
-    
+    .contact__card {
+        padding: 1rem; /* Adjust padding */
+    }
+}
 
+/* For medium devices */
+@media screen and (max-width: 768px) {
+    .contact__container {
+        column-gap: 2rem; /* Reduce column gap */
+    }
 
-  }
-  @media screen and (max-width: 576px) {
-   
-  }
+    .contact__card {
+        padding: 0.5rem; /* Further adjust padding */
+    }
 
-  /* For small devices */
-  @media screen and (max-width: 350px) {
+    .contact__form-area {
+        height: 8rem; /* Adjust textarea height */
+    }
 
-  }
+    .contact__form-name {
+        grid-template-columns: 1fr; /* Stack grid columns */
+        gap: 10px; /* Reduce gap */
+    }
+}
+
+/* For small devices */
+@media screen and (max-width: 576px) {
+    .contact__container {
+        column-gap: 1rem; /* Further reduce column gap */
+    }
+
+    .contact__card {
+        padding: 0.5rem; /* Adjust padding */
+    }
+
+    .contact__form-area {
+        height: 6rem; /* Adjust textarea height */
+    }
+
+    .contact__form-input {
+        padding: 1rem; /* Adjust padding inside input */
+    }
+}
+
+/* For very small devices */
+@media screen and (max-width: 350px) {
+    .contact__container {
+        column-gap: 0.5rem; /* Minimal column gap */
+    }
+
+    .contact__form-area {
+        height: 5rem; /* Adjust textarea height */
+    }
+
+    .contact__form-input {
+        padding: 0.75rem; /* Further adjust padding */
+    }
+}

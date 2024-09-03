@@ -6,10 +6,10 @@ const Experience = () => {
         <h1 className="section__title">Work Experience</h1>
         <span className="section__subtitle">My Journey</span>
 
-        <div className="experience__container">
+        <div className="experience__container container grid">
             <div className="company__year">
                 <h2 className="experience__company">Cyan Swim Academy</h2>
-                <h3 className="experience__year">2021 - Present</h3>
+                <h3 className="experience__year">2021 - 2024</h3>
             </div>
 
             <div className="title__description">

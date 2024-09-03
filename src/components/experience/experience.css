@@ -1,46 +1,15 @@
 .experience__container {
-    display: flex;
-    justify-content: space-around;
-    max-width: 800;
-}
-.company__year {
-    display: flex;
-    flex-direction: column;
-}
-
-.title__description {
-    display: flex;
-    flex-direction: column;
-    max-width: 500px;
-    margin-bottom: var(--mb-0-25);
-}
-
-.experience__title {
-    margin-bottom: var(--mb-0-25);
-}
-
-.experience__company {
-    margin-bottom: var(--mb-0-25);
+    grid-template-columns: 1fr 0.9fr;
 }
 
   /*===== BREAKPOINTS =====*/
 
   /* For larger Devices */
   @media screen and (max-width: 992px) {
-    .experience__container {
-        grid-template-columns: 100px repeat(2, 1fr);
-        column-gap: 1.25rem;
-    }
   }
 
   /* For medium devices */ 
   @media screen and (max-width: 768px) {
-    .experience__container {
-        grid-template-columns: 0.5fr 3fr;
-        padding-top: 3.5rem;
-        display: initial;
-        align-items: center;
-    }
   }
 
   /* For small devices */
