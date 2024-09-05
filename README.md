@@ -1,4 +1,4 @@
-LINK: https://kohkikita.github.io/personal-portfolio-website/
+LINK: https://kohkikita.com
 
 ## 
 
