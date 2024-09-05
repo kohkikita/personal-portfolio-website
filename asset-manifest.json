@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/personal-portfolio-website/static/css/main.be13127b.css",
-    "main.js": "/personal-portfolio-website/static/js/main.53df7ad0.js",
-    "static/js/453.a23575d3.chunk.js": "/personal-portfolio-website/static/js/453.a23575d3.chunk.js",
-    "static/media/about.jpg": "/personal-portfolio-website/static/media/about.983ed2de50f9b96482d7.jpg",
-    "static/media/Kita-CV.pdf": "/personal-portfolio-website/static/media/Kita-CV.80adbc06ab5394c39efc.pdf",
-    "index.html": "/personal-portfolio-website/index.html",
-    "main.be13127b.css.map": "/personal-portfolio-website/static/css/main.be13127b.css.map",
-    "main.53df7ad0.js.map": "/personal-portfolio-website/static/js/main.53df7ad0.js.map",
-    "453.a23575d3.chunk.js.map": "/personal-portfolio-website/static/js/453.a23575d3.chunk.js.map"
+    "main.css": "/static/css/main.6d217837.css",
+    "main.js": "/static/js/main.9fe74a04.js",
+    "static/js/453.a23575d3.chunk.js": "/static/js/453.a23575d3.chunk.js",
+    "static/media/about.jpg": "/static/media/about.983ed2de50f9b96482d7.jpg",
+    "static/media/Kita-CV.pdf": "/static/media/Kita-CV.80adbc06ab5394c39efc.pdf",
+    "index.html": "/index.html",
+    "main.6d217837.css.map": "/static/css/main.6d217837.css.map",
+    "main.9fe74a04.js.map": "/static/js/main.9fe74a04.js.map",
+    "453.a23575d3.chunk.js.map": "/static/js/453.a23575d3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.be13127b.css",
-    "static/js/main.53df7ad0.js"
+    "static/css/main.6d217837.css",
+    "static/js/main.9fe74a04.js"
   ]
 }
