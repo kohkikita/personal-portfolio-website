@@ -60,10 +60,9 @@ const Header = () => {
               </a>
             </li>
 
-            <li className="nav__items ">
-              <a href={CV} className="nav__links" target='_blank' rel="noreferrer">
-                <i className="uil uil-file nav__icon"></i> 
-                <span className='nav__items-hightlight'>Resume</span>
+            <li className="nav__items">
+              <a href={CV} className="nav__link" target='_blank' rel="noreferrer">
+                <i className="uil uil-message nav__icon"></i> Resume
               </a>
             </li>
           </ul>
