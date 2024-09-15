@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.6d217837.css",
-    "main.js": "/static/js/main.a55dd87b.js",
+    "main.css": "/static/css/main.139b5f35.css",
+    "main.js": "/static/js/main.c1f8cc80.js",
     "static/js/453.a23575d3.chunk.js": "/static/js/453.a23575d3.chunk.js",
     "static/media/about.jpg": "/static/media/about.983ed2de50f9b96482d7.jpg",
     "static/media/Kita-CV.pdf": "/static/media/Kita-CV.80adbc06ab5394c39efc.pdf",
     "index.html": "/index.html",
-    "main.6d217837.css.map": "/static/css/main.6d217837.css.map",
-    "main.a55dd87b.js.map": "/static/js/main.a55dd87b.js.map",
+    "main.139b5f35.css.map": "/static/css/main.139b5f35.css.map",
+    "main.c1f8cc80.js.map": "/static/js/main.c1f8cc80.js.map",
     "453.a23575d3.chunk.js.map": "/static/js/453.a23575d3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d217837.css",
-    "static/js/main.a55dd87b.js"
+    "static/css/main.139b5f35.css",
+    "static/js/main.c1f8cc80.js"
   ]
 }
