@@ -1,6 +1,10 @@
 .experience__container {
-    grid-template-columns: 1fr 0.9fr;
+  grid-template-columns: repeat(2, 270px);
+  justify-content: center;
+  column-gap: 1.8rem;
 }
+
+
 
   /*===== BREAKPOINTS =====*/
 
