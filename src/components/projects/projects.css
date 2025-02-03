@@ -1,4 +1,5 @@
 .projects__container {
+    display: grid;
     grid-template-columns: repeat(2, 270px);
     justify-content: center;
     column-gap: 1.8rem;
@@ -117,4 +118,21 @@
 .active-modal {
     opacity: 1;
     visibility: visible;
+}
+
+/* Responsive layout for small screens */
+@media (max-width: 600px) {
+    .projects__container {
+        grid-template-columns: 1fr; /* Stacks the projects vertically */
+        row-gap: 1.5rem;
+    }
+
+    .projects__modal-content {
+        width: 90%; /* Makes the modal fit better on small screens */
+        padding: 3rem 1.5rem 2rem;
+    }
+
+    .projects__modal-description {
+        padding: 0 1rem; /* Reduces padding to fit smaller screens */
+    }
 }
