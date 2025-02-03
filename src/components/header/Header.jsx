@@ -37,16 +37,16 @@ const Header = () => {
             </li>
 
             <li className="nav__items">
-              <a href="#skills" className="nav__link">
-                <i className="uil uil-edit nav__icon"></i> Skills
-              </a>
-            </li>
-
-            <li className="nav__items">
               <a href="#experience" className="nav__link">
                 <i className="uil uil-bag nav__icon"></i> Experience
               </a>
             </li>
+
+            <li className="nav__items">
+              <a href="#skills" className="nav__link">
+                <i className="uil uil-edit nav__icon"></i> Skills
+              </a>
+            </li>            
 
             <li className="nav__items">
               <a href="#projects" className="nav__link">
