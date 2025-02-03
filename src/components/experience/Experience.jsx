@@ -7,9 +7,10 @@ const Experience = () => {
         <span className="section__subtitle">My Journey</span>
 
         <div className="experience__container container grid">
+          <div className="experience__content">
             <div className="company__year">
-                <h2 className="experience__company">Aztec Electric Racing</h2>
-                <h3 className="experience__year">2024 - Present</h3>
+              <h2 className="experience__company">Aztec Electric Racing</h2>
+              <h3 className="experience__year">2024 - Present</h3>
             </div>
 
             <div className="title__description">
@@ -19,16 +20,14 @@ const Experience = () => {
                 Developed and implemented a flag-based system to optimize cell balancing functionality.
                 Led the integration of CAN communication into the battery management system, enabling transmission of error
                 and flag messages to the driver.
-                </p>
+              </p>
             </div>
-        </div>
+          </div>
 
-        <br />
-
-        <div className="experience__container container grid">
+          <div className="experience__content">
             <div className="company__year">
-                <h2 className="experience__company">Cyan Swim Academy</h2>
-                <h3 className="experience__year">2021 - 2024</h3>
+                  <h2 className="experience__company">Cyan Swim Academy</h2>
+                  <h3 className="experience__year">2021 - 2024</h3>
             </div>
 
             <div className="title__description">
@@ -40,9 +39,8 @@ const Experience = () => {
                 Provided positive reinforcement and motivation to increase student confidence and performance.
                 </p>
             </div>
+          </div>
         </div>
-
-    
     </section>
   )
 }

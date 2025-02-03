@@ -1,20 +1,83 @@
-.experience__container {
-  grid-template-columns: repeat(2, 270px);
-  justify-content: center;
-  column-gap: 1.8rem;
+.experience {
+  padding: 4rem 0;
 }
 
+.section__title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
 
+.section__subtitle {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #888;
+  margin-bottom: 2rem;
+}
 
-  /*===== BREAKPOINTS =====*/
+.experience__container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
 
-  /* For larger Devices */
-  @media screen and (max-width: 992px) {
+.experience__content {
+  background: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.experience__content:hover {
+  transform: translateY(-5px);
+}
+
+.company__year {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.experience__company {
+  font-size: 1.3rem;
+  color: #333;
+}
+
+.experience__year {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.title__description {
+  margin-top: 0.5rem;
+}
+
+.experience__title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.experience__description {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  .experience__container {
+    grid-template-columns: 1fr 1fr;
   }
+}
 
-  /* For medium devices */ 
-  @media screen and (max-width: 768px) {
+@media (max-width: 768px) {
+  .experience__container {
+    grid-template-columns: 1fr;
   }
-
-  /* For small devices */
-  @media screen and (max-width: 350px) {}
+}
